@@ -12,6 +12,7 @@ const deleteOneImageDoc = async (doc) => {
   }
 };
 
+// image grid
 const ImageGrid=({setSelectedImg})=>{
 var [searchTerm, setSearchTerm] = useState(null);
 var {docs} = useFireStore('images');
